@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyojun - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Home</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        LEE Hyojun
+                    </h1>
+                    <p class="hero-subtitle">
+                        AI Research Engineer
+                    </p>
+                    <p class="hero-description">
+                        Passionate about leveraging data-driven AI solutions to create meaningful impact
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- 본인 프로필 사진 -> profile.jpg 파일명으로 같은 폴더에 저장 -->
+                    <img src="./images/profile.jpg" alt="Profile Picture" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an AI Research Engineer passionate about leveraging data-driven AI solutions to create meaningful impact. 
+                        I discovered my passion for coding during my senior year through courses like "NLP and Education", 
+                        "Programming Fundamentals", "Big Data Introduction", and "Subject-Software Convergence Education Theory".
+                    </p>
+                    <p>
+                        Worked at Chunjae IT Education Center, specializing in AI-based practical skills training, conducting 
+                        lectures and mentoring trainees in AI implementation. My expertise includes LLM principles, fine-tuning, and 
+                        open-source LLM implementation with hands-on experience in Open WebUI and model quantization for GPU optimization.
+                    </p>
+                    <p>
+                        My goal is to contribute to the advancement of LLM technology and create better AI-powered solutions that make a 
+                        meaningful difference.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2024.06 - 2025.09
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AI Research Engineer</h3>
+                        <h4>Chunjae IT EduTech Center (천재IT교육센터)</h4>
+                        <p>Specialized in AI-based practical skills training for educational purposes.</p>
+                        <ul>
+                            <li>Conducted lectures/seminars to help trainees understand AI</li>
+                            <li>Served as a mentor for trainee projects, guiding AI implementation</li>
+                            <li>Built web applications using Generative AI, Flask, FastAPI</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        2018.02 - 2025.02
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Mathematics Education Graduate</h3>
+                        <h4>Seoul National University (서울대학교)</h4>
+                        <p>Completed Bachelor's degree in Mathematics Education.</p>
+                        <ul>
+                            <li>Started coding journey in senior year with AI and data analysis</li>
+                            <li>Studied NLP, Programming, Big Data, and EduTech</li>
+                            <li>Developed interest in data analysis and AI-powered solutions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 필요에 따라 더 많은 경력사항을 추가 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- 프로젝트 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- 프로젝트 1 이미지 -->
+                        <img src="./images/project1.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>YouTube Content Agent</h3>
+                        <p>Provides YouTube video search, subtitle analysis, and channel information retrieval functions using MCP</p>
+                        <div class="project-tech">
+                            <!-- 사용한 기술들 -->
+                            <span class="tech-tag">Gen AI</span>
+                            <span class="tech-tag">MCP</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/glassesholder/2025_python-mcp-agent" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/glassesholder/2025_python-mcp-agent" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 프로젝트 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project2.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>DuckDuckGo Agent</h3>
+                        <p>An agent chatbot that extracts keywords from a question, searches with DuckDuckGo, and answers based on the results</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Gen AI</span>
+                            <span class="tech-tag">Agent</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://2024duckduckgoagent-l2ggniimn52aa6ywvhv3s7.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/glassesholder/2024_duckduckgo_agent" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 프로젝트 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project3.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>SNU_AIED_Research</h3>
+                        <p>A website for measuring cognitive elements of math questions and labeling them using a Mathpix API and a NLP model</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">BERT</span>
+                            <span class="tech-tag">Mathpix</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://aiednet.kr/sub_posting/posting_view.php?number=309&dp1=competition" class="project-link">Live Demo</a>
+                            <a href="https://github.com/glassesholder/2023_snu_aied-research" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 필요에 따라 더 많은 프로젝트를 추가 -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Streamlit</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">FastAPI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">OpenAI</span>
+                        <span class="skill-item">Gemini</span>
+                        <span class="skill-item">LangChain</span>
+                        <span class="skill-item">HuggingFace</span>
+                        <span class="skill-item">PyTorch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database & Cloud</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">LangSmith</span>
+                        <span class="skill-item">MCP</span>
+                        <span class="skill-item">Notion</span>
+                        <span class="skill-item">Jira</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Awards Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Awards</h2>
+            <div class="certifications-grid">
+                <div class="cert-category">
+                    <h3>Certifications</h3>
+                    <div class="cert-list">
+                        <!-- 자격증을 추가 -->
+                        <div class="cert-item">
+                            <div class="cert-content">
+                                <h4>NCS확인 강사 - 인공지능 (200107)</h4>
+                                <p class="cert-issuer">고용24</p>
+                                <p class="cert-date">2025.06.13</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-content">
+                                <h4>AWS Certified AI Practitioner</h4>
+                                <p class="cert-issuer">Amazon Web Services</p>
+                                <p class="cert-date">2025.02.14</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-content">
+                                <h4>빅데이터분석기사</h4>
+                                <p class="cert-issuer">한국데이터산업진흥원</p>
+                                <p class="cert-date">2024.07.12</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-content">
+                                <h4>SQL 개발자</h4>
+                                <p class="cert-issuer">한국데이터산업진흥원</p>
+                                <p class="cert-date">2022.09.30</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-content">
+                                <h4>정보처리기능사</h4>
+                                <p class="cert-issuer">한국산업인력공단</p>
+                                <p class="cert-date">2021.12.31</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-category">
+                    <h3>Awards & Achievements</h3>
+                    <div class="cert-list">
+                        <!-- 수상내역을 추가 -->
+                        <a href="#" target="_blank" class="cert-item">
+                            <div class="cert-content">
+                              <h4>AI Education Innovation Boot camp & Hackathon- AI Mentor</h4>
+                              <p class="cert-issuer">천재IT교육센터 X 네팔 카트만두 대학교</p>
+                              <p class="cert-date">2025.08.27</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/glassesholder/2024_ThisAble_service" target="_blank" class="cert-item">
+                            <div class="cert-content">
+                              <h4>제6회 교육 공공데이터 분석·활용대회 한국과학창의재단상🏆</h4>
+                              <p class="cert-issuer">교육부</p>
+                              <p class="cert-date">2024.07.29</p>
+                            </div>
+                        </a>  
+                        <a href="https://github.com/glassesholder/2023_snu_aied-research" target="_blank" class="cert-item">
+                            <div class="cert-content">
+                              <h4>AI융합교육 학생 연구 장기 프로젝트 지원 동상🥉</h4>
+                              <p class="cert-issuer">서울대학교 사범대학</p>
+                              <p class="cert-date">2024.01.04</p>
+                            </div>
+                        </a>      
+                        <a href="https://github.com/glassesholder/2023_snu_aied-con" target="_blank" class="cert-item">
+                            <div class="cert-content">
+                                <h4>제3회 서울대학교 AI 융합수업 도구 및 콘텐츠 개발 경진대회 금상🥇</h4>
+                                <p class="cert-issuer">서울대학교 사범대학</p>
+                                <p class="cert-date">2023.12.26</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>
+                        I'm always open to discussing new opportunities and interesting projects. 
+                        Feel free to reach out if you'd like to connect!
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p>statisticlee@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://www.linkedin.com/in/lee-hyojun/">lee-hyojun</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/glassesholder">github.com/glassesholder</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LEE Hyojun. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
